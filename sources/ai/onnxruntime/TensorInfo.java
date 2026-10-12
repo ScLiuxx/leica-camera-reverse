@@ -104,47 +104,47 @@ public class TensorInfo implements ValueInfo {
             } catch (NoSuchFieldError e) {
             }
             try {
-                $SwitchMap$ai$onnxruntime$OnnxJavaType[OnnxJavaType.DOUBLE.ordinal()] = 2;
+                iArr[OnnxJavaType.DOUBLE.ordinal()] = 2;
             } catch (NoSuchFieldError e2) {
             }
             try {
-                $SwitchMap$ai$onnxruntime$OnnxJavaType[OnnxJavaType.INT8.ordinal()] = 3;
+                iArr[OnnxJavaType.INT8.ordinal()] = 3;
             } catch (NoSuchFieldError e3) {
             }
             try {
-                $SwitchMap$ai$onnxruntime$OnnxJavaType[OnnxJavaType.UINT8.ordinal()] = 4;
+                iArr[OnnxJavaType.UINT8.ordinal()] = 4;
             } catch (NoSuchFieldError e4) {
             }
             try {
-                $SwitchMap$ai$onnxruntime$OnnxJavaType[OnnxJavaType.INT16.ordinal()] = 5;
+                iArr[OnnxJavaType.INT16.ordinal()] = 5;
             } catch (NoSuchFieldError e5) {
             }
             try {
-                $SwitchMap$ai$onnxruntime$OnnxJavaType[OnnxJavaType.INT32.ordinal()] = 6;
+                iArr[OnnxJavaType.INT32.ordinal()] = 6;
             } catch (NoSuchFieldError e6) {
             }
             try {
-                $SwitchMap$ai$onnxruntime$OnnxJavaType[OnnxJavaType.INT64.ordinal()] = 7;
+                iArr[OnnxJavaType.INT64.ordinal()] = 7;
             } catch (NoSuchFieldError e7) {
             }
             try {
-                $SwitchMap$ai$onnxruntime$OnnxJavaType[OnnxJavaType.BOOL.ordinal()] = 8;
+                iArr[OnnxJavaType.BOOL.ordinal()] = 8;
             } catch (NoSuchFieldError e8) {
             }
             try {
-                $SwitchMap$ai$onnxruntime$OnnxJavaType[OnnxJavaType.STRING.ordinal()] = 9;
+                iArr[OnnxJavaType.STRING.ordinal()] = 9;
             } catch (NoSuchFieldError e9) {
             }
             try {
-                $SwitchMap$ai$onnxruntime$OnnxJavaType[OnnxJavaType.FLOAT16.ordinal()] = 10;
+                iArr[OnnxJavaType.FLOAT16.ordinal()] = 10;
             } catch (NoSuchFieldError e10) {
             }
             try {
-                $SwitchMap$ai$onnxruntime$OnnxJavaType[OnnxJavaType.BFLOAT16.ordinal()] = 11;
+                iArr[OnnxJavaType.BFLOAT16.ordinal()] = 11;
             } catch (NoSuchFieldError e11) {
             }
             try {
-                $SwitchMap$ai$onnxruntime$OnnxJavaType[OnnxJavaType.UNKNOWN.ordinal()] = 12;
+                iArr[OnnxJavaType.UNKNOWN.ordinal()] = 12;
             } catch (NoSuchFieldError e12) {
             }
         }
